@@ -1,0 +1,10 @@
+SHOPIFY_API_KEY = "b114e18a66236a31cc1dc12293c10fb5"
+SHOPIFY_SECRET = "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"
+
+APP_NAME = "zukitest4"
+SERVER_HOSTNAME = "77d0b83ba389.ngrok.io"
+SERVER_BASE_URL = f"https://{SERVER_HOSTNAME}"
+INSTALL_REDIRECT_URL = f"{SERVER_BASE_URL}/app_installed"
+
+WEBHOOK_APP_UNINSTALL_URL = f"https://{SERVER_HOSTNAME}/app_uninstalled"
+
